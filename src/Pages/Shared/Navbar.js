@@ -21,7 +21,7 @@ const Navbar = ({ children }) => {
                             <div>
                                 <ul class="menu menu-horizontal gap-x-2 ">
                                     <li><Link  to='/' className='rounded-lg bg-transparent'>Home</Link></li>
-                                    <li><Link to='/about' className='rounded-lg bg-transparent'>About</Link></li>
+                                    <li><a className='bg-transparent'  href="#about-me">About</a></li>
                                     <li><Link to='/education' className='rounded-lg bg-transparent'>Education</Link></li>
 
                                     <li><Link to='/project' className='rounded-lg bg-transparent'>Project</Link></li>
@@ -45,7 +45,7 @@ const Navbar = ({ children }) => {
                 <label for="my-drawer-3" class="drawer-overlay"></label>
                 <ul class="menu p-4 overflow-y-auto w-56 bg-[#202428] text-[#FF2E59] text-xl">
                     <li><Link to='/' className='rounded-lg bg-transparent'>Home</Link></li>
-                    <li><Link to='/about' className='rounded-lg bg-transparent'>About</Link></li>
+                    <li><Link to='#about-me' className='rounded-lg bg-transparent'>About</Link></li>
                     <li><Link to='/education' className='rounded-lg bg-transparent'>Education</Link></li>
                     <li><Link to='/project' className='rounded-lg bg-transparent'>Project</Link></li>
                     <li><Link to="/skills" className='rounded-lg bg-transparent'>Skills</Link></li>
