@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="my-12 lg:mx-28 mx-5 about-me" id='about-me'>
             <div className='grid lg:grid-cols-3'>
                 <div className='about-image mt-12 lg:ml-12 md:ml-52 ml-20'>
-                    <img className='lg:w-[300px]' src={aboutme} alt="" />
+                    <img className='lg:w-[300px] text-[#202428]' src={aboutme} alt="" />
                 </div>
                 <div className='col-span-2'>
                     <h1 className='text-2xl my-3 ml-5 lg:flex justify-end font-cursive  lg:mr-16 about-title'>About Me .....</h1>
