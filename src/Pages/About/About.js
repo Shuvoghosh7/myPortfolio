@@ -17,7 +17,7 @@ const About = () => {
                     <p className='text-3xl mb-3 font-sans-serif'>
                         <Typewriter
                             options={{
-                                strings: ['React Developer', 'Front-End Develover', 'MERN Stack Develover'],
+                                strings: ['React Developer', 'Front-End Develover', 'Mern Stack Develover'],
                                 autoStart: true,
                                 loop: true,
                             }}
