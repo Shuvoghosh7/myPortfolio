@@ -3,6 +3,7 @@ import About from '../About/About';
 import AboutMe from '../AboutMe/AboutMe';
 import Education from '../Education/Education';
 import ScrollToTop from '../Shared/ScrollToTop';
+import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <About/>
             <AboutMe/>
             <Education/>
+            <Skills/>
             <ScrollToTop/>
         </div>
     );
